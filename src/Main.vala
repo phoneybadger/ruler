@@ -1,4 +1,6 @@
 public int main (string[] args) {
-    print ("Hello");
-    return 0;
+    var app = new Ruler.Application ();
+    int status = app.run();
+
+    return status;
 }
