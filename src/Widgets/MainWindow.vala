@@ -1,7 +1,7 @@
 namespace Ruler {
     public class MainWindow : Gtk.ApplicationWindow {
         public MainWindow (Gtk.Application app) {
-            Object(
+            Object (
                 application: app
             );
         }

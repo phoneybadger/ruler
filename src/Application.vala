@@ -4,13 +4,12 @@ namespace Ruler {
              Object (
                 application_id : "com.github.phoneybadger.ruler",
                 flags : ApplicationFlags.FLAGS_NONE
-            );           
+            );
         }
 
-        public override void activate() {
+        public override void activate () {
             var main_window = new Ruler.MainWindow (this);
             main_window.show_all ();
         }
     }
 }
-
